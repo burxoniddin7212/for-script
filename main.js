@@ -5,7 +5,7 @@ var elOutput=document.querySelector(".out-massage");
 var grand=110;
 var kantrak=90;
 
-var ins=["O'ZMU", "TATU", "JT", "Vesministr", "Yuridik"];
+var ins=["O'ZMU", "TATU", "TashPI", "Vesministr", "Yuridik"];
 
 for(var user of ins){
   var newOption=document.createElement("option");
