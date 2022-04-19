@@ -5,7 +5,7 @@ var elOutput=document.querySelector(".out-massage");
 var grand=110;
 var kantrak=90;
 
-var ins=["O'ZMU", "TATU", "TashPI", "Vesministr", "Yuridik"];
+var ins=["O'ZMU", "TATU", "TashMI", "Vesministr", "Yuridik"];
 
 for(var user of ins){
   var newOption=document.createElement("option");
@@ -28,16 +28,15 @@ elButton.addEventListener("click", function(e) {
     // elSelect.style.borderColor="black";
   var ball=elInput.value.trim();
   //ball=Number(ball);
-  var massage="asdada";
+  var massage="";
   if(ball >= grand){
     massage="Tabriklayman siz o'qishga grand asosida qabul qilindingiz!!!";
   }
-  else if(ball => kantrak){
+  else if(ball >= kantrak){
     massage="Siz kantraktga kirdingiz Tabriklayman!!!";
   }
   else{
     massage="Afsuski siz kira olmadingiz Rassiyaga keting";
   }
   elOutput.textContent=massage;
- 
 })
