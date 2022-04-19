@@ -36,7 +36,7 @@ elButton.addEventListener("click", function(e) {
     massage="Siz kantraktga kirdingiz Tabriklayman!!!";
   }
   else{
-    massage="Afsuski siz kira olmadingiz Rassiyaga keting";
+    massage="Afsuski siz kira olmadingiz umidingizni sondirmang hali hayot oldinda";
   }
   elOutput.textContent=massage;
 })
